@@ -6,8 +6,8 @@ from sqlalchemy import create_engine
 from dotenv import load_dotenv
 
 # __file__ is 'experiment/phase-0/ingest_legacy_data.py'
-script_dir = Path(__file__).resolve().parent # points to experiment/phase-0
-project_root = script_dir.parents[0] # climbs up 1 levels to project root
+script_dir = Path(__file__).resolve().parent  # points to experiment/phase-0
+project_root = script_dir.parents[0]  # climbs up 1 levels to project root
 
 load_dotenv(project_root / ".env")
 
@@ -45,14 +45,14 @@ df_legacy['SYS_INGEST_FLAG'] = 'Y'
 print("Connecting to legacy MSSQL Database...")
 # Use the pyodbc driver. (Ensure you have ODBC Driver 17 or 18 for SQL Server installed on your OS)
 connection_string = (
-        f"DRIVER={{ODBC Driver 18 for SQL Server}};"
-        f"SERVER={db_host},{db_port};"
-        f"DATABASE=master;"
-        f"UID={db_user};"
-        f"PWD={db_password};"
-        f"Encrypt=no;"
-        f"TrustServerCertificate=yes;"
-    )
+    f"DRIVER={{ODBC Driver 18 for SQL Server}};"
+    f"SERVER={db_host},{db_port};"
+    f"DATABASE=master;"
+    f"UID={db_user};"
+    f"PWD={db_password};"
+    f"Encrypt=no;"
+    f"TrustServerCertificate=yes;"
+)
 
 params = urllib.parse.quote_plus(connection_string)
 
