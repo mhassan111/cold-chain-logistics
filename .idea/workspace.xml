@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a50a1d21-bec2-48df-870b-0681535ef301" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/dynamic_supply_chain_logistics_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/source/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/ingest_legacy_data.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="6" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mhassan111&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:mhassan111/cold-chain-logistics.git&quot;,
+    &quot;accountId&quot;: &quot;49d71433-d4b1-436c-8d40-a6dfc5e1e8b8&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.542003999562919" />
+      <entry key="MS500" value="2.6883065285131558" />
+      <entry key="S2" value="5.670448940097869" />
+      <entry key="S5" value="10.496741509361586" />
+      <entry key="S10" value="14.147910754166883" />
+      <entry key="S30" value="17.730300068253" />
+      <entry key="S60" value="18.836077351660112" />
+      <entry key="M2" value="20.434890108106867" />
+      <entry key="M5" value="35.16581058304723" />
+      <entry key="M10" value="58.741899312658354" />
+      <entry key="M15" value="72.940984235619" />
+      <entry key="M30" value="92.38655156999167" />
+      <entry key="H1" value="105.37023718317576" />
+      <entry key="H2" value="117.3954337118779" />
+      <entry key="H4" value="132.21579725973567" />
+      <entry key="D1" value="160.7148165395276" />
+      <entry key="W1" value="168.56918923974854" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="3.706027734604209E-82" />
+      <entry key="MS500" value="6.525776001168787E-17" />
+      <entry key="S2" value="1.4546243888597353E-4" />
+      <entry key="S5" value="0.0446182825442077" />
+      <entry key="S10" value="0.32948345276765323" />
+      <entry key="S30" value="1.5663744028913285" />
+      <entry key="S60" value="2.470573304787536" />
+      <entry key="M2" value="3.3234244568296383" />
+      <entry key="M5" value="4.994136483223467" />
+      <entry key="M10" value="6.425523940707736" />
+      <entry key="M15" value="7.119010486319375" />
+      <entry key="M30" value="7.965295073007469" />
+      <entry key="H1" value="8.472390687409536" />
+      <entry key="H2" value="8.848066786400954" />
+      <entry key="H4" value="9.214969255892404" />
+      <entry key="D1" value="9.818135333023141" />
+      <entry key="W1" value="9.972313993770653" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.496086009624317" />
+      <entry key="MS500" value="2.6616426126115798" />
+      <entry key="S2" value="5.652652777913513" />
+      <entry key="S5" value="10.523329905828529" />
+      <entry key="S10" value="14.451903715101626" />
+      <entry key="S30" value="19.265046284502066" />
+      <entry key="S60" value="21.28202585710709" />
+      <entry key="M2" value="23.741390438478305" />
+      <entry key="M5" value="40.148557248706986" />
+      <entry key="M10" value="65.15945909856745" />
+      <entry key="M15" value="80.05391189058062" />
+      <entry key="M30" value="100.34831885953578" />
+      <entry key="H1" value="113.84071625286069" />
+      <entry key="H2" value="126.24249350107337" />
+      <entry key="H4" value="141.43023989107925" />
+      <entry key="D1" value="170.5328577941098" />
+      <entry key="W1" value="178.5414895586097" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JAe19RzHHuZpPfSDNe4QdCfv62" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/muhammadhassan/Desktop/Python/cold-chain-logistics/data/raw&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/raw" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="cold-chain-logistics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a50a1d21-bec2-48df-870b-0681535ef301" name="Changes" comment="" />
+      <created>1789108082799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789108082799</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
