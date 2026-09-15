@@ -23,6 +23,7 @@ load_dotenv(project_root / ".env")
 
 # Import the compiled graph and tools list dynamically
 from src.orchestrator import fde_agent
+from src.message_content import text_content
 
 # ==========================================
 # 2. SQL CREDENTIALS MAPPING FROM .ENV
@@ -108,7 +109,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.caption(f"Session Token: `{st.session_state.thread_id[:8]}...`")
-    st.markdown(f"**Reasoning Architecture:** `{os.getenv('Agent_llm', 'DEEPSEEK')}`")
+    st.markdown(f"**Reasoning Architecture:** `{os.getenv('AGENT_LLM', 'GEMINI')}`")
 
     st.markdown("---")
     if st.button("🗑️ Purge Dispatch Workspace Session", use_container_width=True):
@@ -185,8 +186,9 @@ if app_mode == "🧊 Dispatch Console":
                                     )
 
                             # B. Intercept Final Generation
-                            if latest_msg.content:
-                                final_response = latest_msg.content
+                            response_text = text_content(latest_msg.content)
+                            if response_text:
+                                final_response = response_text
                                 status.update(label="📝 Generating Operational Resolution Report...")
 
                                 write_audit_log(

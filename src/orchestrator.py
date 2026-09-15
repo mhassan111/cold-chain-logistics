@@ -20,6 +20,7 @@ if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
 from src.agent_tools import query_telemetry_db, fetch_corridor_conditions, search_compliance_sop
+from src.message_content import text_content
 
 load_dotenv(project_root / ".env")
 
@@ -127,5 +128,6 @@ if __name__ == "__main__":
                     print("   [System] 🔄 Retrieving external data elements via ToolNode...")
                 elif node_name == "reasoner":
                     latest_msg = node_state["messages"][-1]
-                    if latest_msg.content:
-                        print(f"\n🤖 FDE Agent:\n{latest_msg.content}")
+                    response_text = text_content(latest_msg.content)
+                    if response_text:
+                        print(f"\n🤖 FDE Agent:\n{response_text}")

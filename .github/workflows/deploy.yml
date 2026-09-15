@@ -26,4 +26,5 @@ jobs:
             cd /home/ubuntu/cold-chain-logistics
             git pull origin main
             source venv/bin/activate
-            sudo systemctl restart streamlit
+            sudo systemctl restart cold-chain-streamlit
+            sudo systemctl is-active cold-chain-streamlit
