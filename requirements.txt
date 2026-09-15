@@ -22,6 +22,7 @@ sentence-transformers
 SQLAlchemy
 streamlit
 torch
+langchain-ollama
 
 #python-dotenv
 #langchain
